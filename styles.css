@@ -1,0 +1,130 @@
+/* Author : Itay Getahun
+date 15/01/22
+Angela's Fullstack Udemy Course 
+Boostrap section */
+
+/****Tag --class-- icons-- fonts-- medeiaQ*****/
+
+
+/****Tag Selectors*****/
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1,h2,h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 1.5 ;
+}
+div {
+  margin: 0;
+}
+/****class Selectors*****/
+.pink {
+  background-color: #ff4c68;
+}
+.second-pink {
+  background-color: #ef8172;
+  color: #fff;
+}
+.containers-sizing {
+  padding: 3% 12% ;
+  margin: 0;
+ }
+
+.iphone_img {
+  width: 10rem;
+  height: auto;
+  position: relative;
+  /* top: 7rem; */
+  left: 12%;
+  transform: rotate(21deg);
+  padding: 1.2rem ;
+}
+.Title-section {
+  position:relative ;
+  padding: 0 12% 0 12%;
+  margin: 0;
+}
+.Features_section {
+ padding: 0 12% 0 12%;
+}
+.nav {
+  font-weight: lighter;
+  font-size: larger;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+.testimonial-image {
+ height: auto;
+ width: auto;
+}
+
+.press-loggo {
+  width: auto;
+  height: 20%;
+  margin: 10px 10px 10px 10px ;
+}
+.card-body {
+  line-height: 87%;
+  text-align: center;
+}
+
+/***Font Awsome Classes*****/
+.favicon {
+  font-size:5rem;
+  color: #ef8172;
+}
+.favicon:hover {
+  font-size:5.3rem;
+  color: #ff4c68;
+}
+
+/****fonts*****/
+.Ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+  }
+.emphesize {
+  font-size: x-large;
+  line-height: 200%;
+}
+
+/****Media Queris*****/
+@media (max-width : 910px) and (min-width :760px ) {
+  .Title-section {
+    padding-bottom: 1.2rem ; 
+  }
+}
+ @media (max-width : 768px){
+  body {
+    align-items: center;
+    text-align: center;
+   }
+  .iphone_img {
+    position: static;
+    width: 65%;
+    height: auto;
+    transform: rotate(0deg);
+  }
+ }
+@media screen and (max-width: 500px){
+  .carousel {
+  height: 36rem; 
+}
+}
+
+@media screen and (min-width: 501px) {
+  .carousel {
+height: 27rem; 
+}
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+  
